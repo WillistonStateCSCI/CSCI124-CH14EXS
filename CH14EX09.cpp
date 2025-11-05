@@ -12,7 +12,7 @@ int main()                                          //Line 3
     {                                               //Line 7
         for (int i = 0; i < 100; i++)               //Line 8
         {                                           //Line 9
-            list[i] = new int[50000000];            //Line 10
+            list[i] = new int[5000000000];            //Line 10
             cout << "Line 11: Created list[" << i 
                  << "] of 50000000 components." 
                  << endl;                           //Line 11
